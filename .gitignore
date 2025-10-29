@@ -1,6 +1,8 @@
 # Environment variables
 .env
 .conf
+.env.example
+.gitignore
 
 # Database files
 data/
