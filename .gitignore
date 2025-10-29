@@ -1,0 +1,34 @@
+# Environment variables
+.env
+.conf
+
+# Database files
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Cache
+cache/
+
+# Binaries (built in root, not source files)
+server
+country-currency-api
+*.exe
+
+# Allow cmd/server source files
+!cmd/server/
+
+# Go
+vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
